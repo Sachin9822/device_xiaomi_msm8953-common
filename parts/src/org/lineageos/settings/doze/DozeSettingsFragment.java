@@ -27,6 +27,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Switch;
+
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceCategory;
@@ -40,6 +41,7 @@ import org.lineageos.settings.R;
 
 public class DozeSettingsFragment extends PreferenceFragment implements OnPreferenceChangeListener,
         OnMainSwitchChangeListener {
+
     private MainSwitchPreference mSwitchBar;
 
     private SwitchPreference mAlwaysOnDisplayPreference;
@@ -136,7 +138,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
         mPocketPreference.setEnabled(isChecked);
     }
 
-    private static class HelpDialogFragment extends DialogFragment {
+    public static class HelpDialogFragment extends DialogFragment {
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             return new AlertDialog.Builder(getActivity())
