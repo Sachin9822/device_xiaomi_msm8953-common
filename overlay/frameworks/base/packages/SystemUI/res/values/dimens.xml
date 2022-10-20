@@ -16,6 +16,7 @@
 -->
 <resources>
 <!-- Adjust the icon padding in status bar for rounded corners --> 
-    <dimen name="status_bar_padding_bottom">12px</dimen>
+    <dimen name="status_bar_padding_bottom">3px</dimen>
+    <dimen name="status_bar_padding_top">4px</dimen>
 </resources>
 
