@@ -1,0 +1,5 @@
+# Fwk detect
+ro.vendor.qti.va_odm.support=1
+
+# Netflix
+ro.netflix.bsp_rev=Q6125-17995-1
