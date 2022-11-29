@@ -137,7 +137,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdisplayconfig \
-    libqdMetaData.system \	
+    libqdMetaData.system \
     libtinyxml \
     vendor.display.config@1.0.vendor
 
