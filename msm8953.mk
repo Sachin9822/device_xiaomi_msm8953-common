@@ -141,9 +141,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.0.vendor
 
-# DPM
-PRODUCT_PACKAGES += \
-    libcutils_shim
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -185,12 +182,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery
 endif
 
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.base@1.0.vendor \
-    android.hidl.manager@1.0 \
-    android.hidl.manager@1.0.vendor
 
 PRODUCT_PACKAGES += \
     libhidltransport \
@@ -200,7 +191,6 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    libgui_shim \
     vendor.qti.hardware.camera.device@1.0
 
 # Input
