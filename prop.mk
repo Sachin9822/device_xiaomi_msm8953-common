@@ -133,9 +133,6 @@ ro.crypto.volume.contents_mode=aes-256-xts
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.qfp=false
 
-# Fm
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.fm.transmitter=false
 
 # Frp
 PRODUCT_PROPERTY_OVERRIDES += \
